@@ -1,7 +1,33 @@
-# FullStack Social Media App
+# Sunu Business Media
 
-Build a COMPLETE Fullstack Responsive MERN App with Auth, Likes, Dark Mode | React, MongoDB, MUI
+Une application de réseau social simple, développée avec MERN Stack (MongoDB, Express, React, Node.js).
 
-Video: https://www.youtube.com/watch?v=K8YELRmUb5o
+## 🚀 Fonctionnalités
 
-For all related questions and discussions about this project, check out the discord: https://discord.gg/2FfPeEk2mX
+- Inscription / Connexion des utilisateurs
+- Création, affichage, modification et suppression de posts
+- Système de like et commentaires
+- Mise à jour du profil utilisateur
+
+## 🛠️ Stack utilisé
+
+- Front-end : React.js
+- Back-end : Node.js + Express
+- Base de données : MongoDB
+- Authentification : JWT
+
+## 📦 Installation
+
+```bash
+# Cloner le repo
+git clone https://github.com/MbayeBossKa/Sunu-Business-Media.git
+
+# Backend setup
+cd mern-social-media-master/api
+npm install
+npm start
+
+# Frontend setup
+cd ../client
+npm install
+npm start
